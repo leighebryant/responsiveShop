@@ -322,6 +322,6 @@ ol.shirtsizes2 {
     height: 220px;
 }
 
-.size:hover + .popup{
+.size:hover .popup{
   opacity: 1;
 }
