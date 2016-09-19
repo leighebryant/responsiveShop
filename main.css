@@ -316,12 +316,6 @@ ol.shirtsizes2 {
     font-size: 28px;
 }
 
-.hover {
-    background-color: red;
-    width: 84px;
-    height: 220px;
-}
-
 .size:hover .popup{
   opacity: 1;
 }
