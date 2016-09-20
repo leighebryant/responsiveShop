@@ -10,7 +10,7 @@ div.container {
     position: absolute;
 }
 
-.container ul#icons li{
+.container ul.icons li{
     list-style: none;
     float: left;
     width: 70px;
@@ -23,7 +23,7 @@ div.container {
     line-height: 40px;
 }
 
-.container ul#icons {
+.container ul.icons {
     margin: -1px 0;
     padding: 0 0;
     bottom: -12px;
