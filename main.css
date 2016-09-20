@@ -1,5 +1,5 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 .colorbox {
@@ -41,8 +41,8 @@
     position: absolute;
 }
 
-.container ul{
-  width: 104%;
+.container ul {
+    width: 104%;
 }
 
 .container ul.icons .nav {
@@ -229,13 +229,13 @@ p {
     width: 100%;
 }
 
-.shirt-container{
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  background: white;
-  width: 23%;
-  margin:10px
+.shirt-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: white;
+    width: 23%;
+    margin: 10px
 }
 
 .size:hover .popup {
@@ -340,13 +340,13 @@ p {
 }
 
 @media only screen and (min-width: 1000px) and (max-width:1300px) {
-    .shirt-container{
-      width: 22%;
-  }
+    .shirt-container {
+        width: 22%;
+    }
 }
 
 @media only screen and (min-width:400px) and (max-width:900px) {
-.shirt-container {
+    .shirt-container {
         width: 40%;
     }
 }
