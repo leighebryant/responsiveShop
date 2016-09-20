@@ -258,19 +258,19 @@ ol div.popup2:hover {
     float: right;
 }
 
-#topleft {
+.topleft {
     background-color: #5ca4d6;
 }
 
-#topright {
+.topright {
     background-color: #d583ac;
 }
 
-#bottomleft {
+.bottomleft {
     background-color: #deb17e;
 }
 
-#bottomright {
+.bottomright {
     background-color: #8bb992;
 }
 
