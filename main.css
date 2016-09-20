@@ -95,7 +95,7 @@ p {
 .popup {
     position: absolute;
     z-index: 5;
-    top: 173px;
+    top: -173px;
     left: 135px;
     opacity: 1;
     display: inline-block;
@@ -276,7 +276,7 @@ ol div.popup2:hover {
 
 .popup2{
   position: absolute;
-  top:268px;
+  top:-100px;
   left: 205px;
   opacity: 1;
   float: left;
@@ -313,8 +313,9 @@ ol div.popup2:hover {
     font-size: 28px;
 }
 
-.Size:hover + .popup{
+.Size:hover .popup{
   opacity: 1;
+  background: red;
   z-index: 10;
 }
 
@@ -324,6 +325,15 @@ ol div.popup2:hover {
         width: 20vw;
         display: block;
         position: static;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    .footer.container{
+        width: 20vw;
+        display: block;
+        position: static;
+        background-color: red;
     }
 
 }
